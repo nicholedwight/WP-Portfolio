@@ -1,0 +1,226 @@
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+nav {
+	width:100%;
+ 	height:50px;
+	position:fixed;
+	z-index: 10;
+ 	top:0px;
+ 	background-color: #252120;
+ 	background: url(../img/binding_dark.png) repeat left top;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 20px 0;
+  list-style: none;
+}
+
+ul li {
+  font: bold 12px/18px sans-serif;
+  color: #fff;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  background: #252120 url(../img/binding_dark.png) repeat left top;;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
+ul li:hover {
+  background: #2A2A2A;
+  color: #fff;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+ul li ul li { 
+  background: #474545; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+
+ul li ul li:hover { 
+	background: #2A2A2A; 
+}
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 15px 20px;
+  color: #FFFFFF;
+	display: inline-block;
+}
+
+nav a:visited {
+	color: inherit;
+}
+
+#up {
+	width: 97px;
+	height: 97px;
+	position: fixed;
+	z-index: 10;
+	top: 60px;
+	left: -2px;
+}
+
+#contentcontainer {
+	margin-top: 50px;
+}
+
+.intro {
+	font: italic normal 18px/28px Georgia, 'Times New Roman', Times, serif;
+	color: #595959;
+	padding: 10px 0 10px 0;
+	margin-top: 8px;
+	min-height: 1000px;
+	background: #f6f6f6;
+}
+
+.intro h2 {
+  font: italic normal 28px/28px Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: -0.025em;
+  color: #595959;
+  text-shadow: 0px 1px 1px #333;
+}
+
+
+/* Rotation CSS from http://blog.vivekv.com/rotate-image-360deg-when-mouse-hover-using-css-3.html */
+.spin_me {
+	margin: auto;
+  margin-top: 5em;
+	-webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+}
+
+.spin_me:hover {
+	-webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
+.introwrapper {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+  overflow: auto;
+}
+
+.wrapper h1 {
+  text-align: center;
+}
+
+.wrapper img {
+  display: block;
+  margin: 0 auto;
+}
+
+.one {
+  width: 40%;
+  float: left;
+  margin-left: 7%;
+  margin-top: 40px;
+}
+
+.two {
+  width: 40%;
+  float: right;
+  margin-right: 7%;
+  margin-top: 40px;
+}
+
+.project {
+	min-height: 900px;
+	padding: 25px;
+}
+
+.pattern {
+	width: 100%;
+	height: 13px;
+	background-image: url(../img/jagged-top.png);
+	margin-bottom: -1px;
+	margin-top: -10px;
+}
+
+.patterndown {
+	width: 100%;
+	height: 13px;
+	background-image: url(../img/jagged-bottom.png);
+	margin-bottom: -9px;
+	position: relative;
+}
+
+#project-1 {
+	background: #768E8F url(../img/project1bg.jpg);
+	color: #FFFFFF;
+}
+
+#project-2 {
+	background: #F6F6F6;
+	color: #2e2e2e;
+
+}
+
+#project-3 {
+	background: #768E8F url(../img/project1bg.jpg);
+	color: #FFFFFF;
+}
+
+#project-4 {
+	background-color: #F6F6F6;
+	color: #2e2e2e;
+}
+
+h2 {
+	margin: 0;
+}
