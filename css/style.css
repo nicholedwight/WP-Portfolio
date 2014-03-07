@@ -63,15 +63,15 @@ ul li ul {
   -transition: opacity 0.2s;
 }
 
-ul li ul li { 
-  background: #474545; 
-  display: block; 
+ul li ul li {
+  background: #474545;
+  display: block;
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
 
-ul li ul li:hover { 
-	background: #2A2A2A; 
+ul li ul li:hover {
+	background: #2A2A2A;
 }
 
 ul li:hover ul {
@@ -129,12 +129,12 @@ nav a:visited {
     -moz-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
     transition-duration: 0.8s;
-     
+
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
     -o-transition-property: -o-transform;
     transition-property: transform;
-     
+
     overflow:hidden;
 }
 
@@ -219,6 +219,10 @@ nav a:visited {
 #project-4 {
 	background-color: #F6F6F6;
 	color: #2e2e2e;
+}
+
+#final {
+  padding-top: 30px;
 }
 
 h2 {
