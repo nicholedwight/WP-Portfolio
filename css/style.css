@@ -179,6 +179,13 @@ nav a:visited {
   margin-top: 40px;
 }
 
+.three {
+  width: 100%;
+  clear: both;
+  margin-top: 20px;
+  text-align: center;
+}
+
 .project {
 	min-height: 900px;
 	padding: 25px;
