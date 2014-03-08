@@ -52,7 +52,7 @@
 			<div class="project" id="project-2">
 				<div class="wrapper">
 						<h1>Client Website requirements gathering</h1>
-					<div class="one">
+					<div class="project-left">
 							<p> For the requirements gathering for the client site, I went through different aspects of what the client wants for the future site, what the current one lacks and does for the viewers, and what the clients of Tim Loftus' Boats would want to see in the site.</p>
 							<img src="img/req2.jpg">
 							<p> I found that Tim's client is based off recreational buyers, around 40 years of age and older, and commercial buyers which consist mainly of fishermen and the families of such. Now that he has moved his business to England, his main clients come from the recreational buyers, however, he can't disregard the commercial buyers when it comes to the feel of the site.</p>
@@ -61,7 +61,7 @@
 							<p>When questioning myself as to why would 'I' buy a boat from Tim Loftus over other boat builders, I came up with some answers. He has experience, passion, and knowledge. Why new and wooden boats? - They're a part of a heritage, tradition; they've quality, personality, timeless, and there's a close personal relationship built with the builders, this all needs to be translated to the viewers of the website. Seeing all this could bring in more clients for Tim and boost his business.</p>
 							<p>Overall, the majority of his, and other builders, clients hear about the business via word of mouth, so this had me questioning the necessity of a website in general. However, we are entering a digital era, which means people prefer to check up on various aspects of their life, things they want to buy, etc, online. So when they hear of Tim Loftus' business, they can be greated online with a professional, up to date, informative website. With the current site, it almost looks as if Tim has gone out of business since the site is so dated.</p>
 					</div>
-					<div class="two">
+					<div class="project-right">
 						<h2> What the new site needs</h2>
 							<p>First of all, the colour scheme of the site needs to change, it currently feels so cold.</p>
 							<a class="test-popup-link" href="img/old.png"><img src="img/oldthumb.png"></a>
@@ -77,12 +77,12 @@
 			<div class="project" id="project-3">
 				<div class="wrapper">
 					<h1>Client Design Exercise</h1>
-					<div class="one">
+					<div class="project-left">
 						<a class="test-popup-link" href="img/wireframe1.png"><img src="img/wireframe1thumb.png"></a>
 						<p>Above is the inital wireframe I did for the client site, it was rather rough, but allowed for the site to have an open and friendly feel to it. It felt very modern, and professional.</p>
 						<p><h1>WIP BELOW</h1>I have a second wireframe in the works, one that would make a more casual and fun project, although I'm unsure of how functional it would be, as already there are a few inconsistencies, like the navigation. However, it's still something to explore.
 					</div>
-					<div class="two">
+					<div class="project-right">
 						<a class="test-popup-link" href="img/BoatsMockup.png"><img src="img/BoatsMockupthumb.png"></a>
 						<p>This is the mockup for the original, functional, wireframe. It's changed a bit from the mockup in that I removed the 'featured projects' section, since it's essentially the News link. Instead I've provided a footer with contact information, and a link to the contact page, along with a section for the latest articles and posts directly from the built-in WordPress blog. After taking a closer look at Tim's current website, there is more 'About' information than expected, and therefore there's an introduction to the company on the homepage, and there will be more personal information about Tim and his boat history on the About page linked in the navigation bar.</p>
 						<p>The header image also contains contact information in it, since it would be the main form of contact to get ahold of Tim, this just makes him very accessible to the potential customer. The logo has also been changed to a simple silhouette of a sailboat, it's only temporary but in my opinion, the current logo needs to be updated.</p>
@@ -94,7 +94,7 @@
 			<div class="project" id="project-4">
 				<div class="wrapper">
 					<h1>Client Development Exercise</h1>
-					<div class="one">
+					<div class="project-left">
 						<p><strong>1)</strong> To start off with implementing my design idea, as stated before, I chose to use Starkers theme instead of Skeleton, I felt this was a better jumpoff point, it took out everything unnecessary and is much easier to edit. This is what the site looked like with minimal content, just half a menu bar, header, sample page content, and comments.</p>
 						<a class="test-popup-link" href="img/initial.png"><img src="img/initialthumb.png"></a>
 						<p><strong>2)</strong> After working with WordPress for a while, trying out various edits. I stuck with my initial thought that editing my non-content changes to the site in Atom would be a safer way to go, rather than editing in WordPress itself. I also am much more adjusted to working with code on a darker background, as seen below in Atom with my personal preferences</p>
@@ -108,7 +108,7 @@
 						<p><strong>6)</strong> When I do want to keep the changes I've made, I use version control via Git. This way if I ever want to go back to a previous version, I can. I can also make various branches to test 'crazy' ideas without harming the master branch, if I choose to implement those, I can. Git's amazing.</p>
 						<a class="test-popup-link" href="img/git.png"><img src="img/gitthumb.png" alt="Working with inspect element"></a>
 					</div>
-					<div class="two">
+					<div class="project-right">
 						<p><strong>7)</strong> After doing the basic styling of the header/footer and what the content container would look like, there were lots of small issues that bothered me. The first one I came across were the allowed tags for submitting a comment. I used inspect element to find where this was and what class it was in, I was then able to use CSS to hide them. They didn't seem very useful for a commenter and in my experience in looking at blogs, I haven't seen them in the commenting section.</p>
 						<a class="test-popup-link" href="img/allowedtags.png"><img src="img/allowedtagsthumb.png"></a>
 						<p><strong>8)</strong> The screenshot below is where I came across the need for the content/page container that I've so vehemently spoken about already. I called it a page container in my CSS, but it's really containing the content of my page. I'd been silly and styled my homepage using two column divs, but when it came to putting in content for the Design Idea page, I found that wouldn't work and that the content stretched the whole width and touched the bottom of the container. It did not look good. This is when I went digging and found that I could contain the title and content, so I did. I styled it to have some padding, margin, overflow, and max-width. Nice and simple and it did exactly what I was hoping for. I then scurried off to change the sillyness on the homepage styling.</p>
@@ -122,8 +122,8 @@
 						<p><strong>12)</strong>The final stage to presenting the design in some live pages were to add content to the Post/News page. I did this by taking posts he current has on his site and integrating them into the WordPress site I've built. I included just enough to give the idea of how it would look with all his posts imported into it. Of course, there isn't an archive section on the right with all the post history, since I'd only just put the first post in in early March.</p>
 						<a class="test-popup-link" href="img/posts.png"><img src="img/poststhumb.png"></a>
 					</div>
-					<div class="three">
-						<p><strong>NUMBER</strong>Click the image below to see the final site.</p>
+					<div class="project-bottom">
+						<h3>Click the image below to see the final site.</h3>
 						<a href="www.cems.uwe.ac.uk/~a2-dwight/wordpress"><img src="img/final.png" id="final"></a>
 				</div>
 				</div>

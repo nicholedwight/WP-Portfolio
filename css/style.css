@@ -165,24 +165,22 @@ nav a:visited {
   margin: 0 auto;
 }
 
-.one {
+.project-left {
   width: 40%;
   float: left;
   margin-left: 7%;
   margin-top: 40px;
 }
 
-.two {
+.project-right {
   width: 40%;
   float: right;
-  margin-right: 7%;
-  margin-top: 40px;
+  margin: 40px 7% 50px 0;
 }
 
-.three {
+.project-bottom {
   width: 100%;
   clear: both;
-  margin-top: 20px;
   text-align: center;
 }
 
