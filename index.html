@@ -7,18 +7,13 @@
 		<link rel="stylesheet" href="css/magnific-popup.css">
 	</head>
 	<body>
-		<div id="header-wrapper">
 			 <nav>
 				<ul class="nav">
-					<li>
-						<a href="#">Projects</a>
-							<ul>
+
 								<li><a href="#project-1" class="smoothscroll">Intro to Wordpress</a></li>
 								<li><a href="#project-2" class="smoothscroll">Requirements Gathering</a></li>
 								<li><a href="#project-3" class="smoothscroll">Design Exercise</a></li>
 								<li><a href="#project-4" class="smoothscroll">Development Exercise</a></li>
-							</ul>
-					</li>
 				</ul>
 			</nav>
 		</div>
@@ -138,7 +133,6 @@
 				</div>
 				</div>
 			</div>
-		</div>
 
 		<!-- JavaScript Scrolling and jQuery from http://tympanus.net/codrops/2010/06/02/smooth-vertical-or-horizontal-page-scrolling-with-jquery/ -->
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -150,7 +144,7 @@
 			        var $anchor = $(this);
 
 			        $('html, body').stop().animate({
-			            scrollTop: $($anchor.attr('href')).offset().top-40 /* top-50 is so the scrolling stops 50px above my content since I have a fixed header nav bar of 50px */
+			            scrollTop: $($anchor.attr('href')).offset().top-1 /* top-50 is so the scrolling stops 50px above my content since I have a fixed header nav bar of 50px */
 			        }, 500,'easeInOutExpo');
 			        /*
 			        if you don't want to use the easing effects:
