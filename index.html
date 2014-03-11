@@ -9,16 +9,25 @@
 	<body>
 			 <nav>
 				<ul class="nav">
-
+								<li><a href="#intro" class="smoothscroll">About the Portfolio</a></li>
 								<li><a href="#project-1" class="smoothscroll">Intro to Wordpress</a></li>
 								<li><a href="#project-2" class="smoothscroll">Requirements Gathering</a></li>
 								<li><a href="#project-3" class="smoothscroll">Design Exercise</a></li>
 								<li><a href="#project-4" class="smoothscroll">Development Exercise</a></li>
+								<li><a href="#project-5" class="smoothscroll">About Me</a></li>
 				</ul>
 			</nav>
 		</div>
 		<div id="contentcontainer">
-			<a href="#intro" id="up" class="smoothscroll"><img src="img/top.png"></a>
+			<div class="boxes" id="top">
+					<a href="#intro" class="smoothscroll" id="about"><img src="img/portimage.png" id="port"></a>
+					<a href="#project-5" class="smoothscroll" id="me"><img src="img/pl.png" id="personal"></a>
+					<a href="#project-1" class="smoothscroll" id="wordpress"><img src="img/wp.png"></a>
+					<a href="#project-2" class="smoothscroll" id="requirements"><img src="img/req.png" id="req"></a>
+					<a href="#project-3" class="smoothscroll" id="design"><img src="img/design.png" id="designlogo"></a>
+					<a href="#project-4" class="smoothscroll" id="development"><img src="img/development.png" alt="dev"></a>
+			</div>
+			<a href="#top" id="up" class="smoothscroll"><img src="img/top.png"></a>
 			<div class="intro" id="intro">
 				<div class="introwrapper">
 					<img src="img/dashed.png">
@@ -130,9 +139,23 @@
 					<div class="project-center">
 						<h3>Click the image below to see the final site.<br> Or copy the URL www.cems.uwe.ac.uk/~a2-dwght/wordpress into your browser</h3>
 						<a href="www.cems.uwe.ac.uk/~a2-dwight/wordpress"><img src="img/final.png" id="final"></a>
-				</div>
+					</div>
 				</div>
 			</div>
+			<div class="project" id="project-5">
+				<div class="project-center">
+					<h1>About Me</h1>
+						<p>
+							Nichole is an American expat, more precisely, hailing from Nebraska before later moving to Georgia, and has managed to cross the Atlantic to escape the sweltering clutches of the southern states. While she has acclimatised to Britain extremely well, her work still has a certain American touch. This doesn't mean there are bald eagles and stars 'n' stripes plastered all across her work, but there's undeniably that gregarious yet professional flair embedded in everything she touches-like an American Midas.</p>
+						<p>
+She is a polyglot both with human and programming languages, Nichole speaks English, German, and a tiny bit of Italian and Norwegian; as well as Python, Ruby, PHP, HTML, CSS, and JavaScript, although she would definitely bring Python to a keyboard shootout. Studying Digital Media in her quest to be a true multimedia hybrid, she also has a new-found adoration of 3D-modelling and visual design.</p>
+						<p>
+When not doing any of the above, she can be found around a table trying her very hardest at board games, looking at cat pictures on the internet, passionately arguing why Matt Smith is by far the best Doctor, or winding down with a video game or five.
+						</p>
+					</div>
+			</div>
+		</div>
+
 
 		<!-- JavaScript Scrolling and jQuery from http://tympanus.net/codrops/2010/06/02/smooth-vertical-or-horizontal-page-scrolling-with-jquery/ -->
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -144,7 +167,7 @@
 			        var $anchor = $(this);
 
 			        $('html, body').stop().animate({
-			            scrollTop: $($anchor.attr('href')).offset().top-1 /* top-50 is so the scrolling stops 50px above my content since I have a fixed header nav bar of 50px */
+			            scrollTop: $($anchor.attr('href')).offset().top-0 /* top-50 is so the scrolling stops 50px above my content since I have a fixed header nav bar of 50px */
 			        }, 500,'easeInOutExpo');
 			        /*
 			        if you don't want to use the easing effects:

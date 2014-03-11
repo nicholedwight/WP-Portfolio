@@ -66,6 +66,72 @@ nav a:visited {
   padding-left: 200px;
 }
 
+.boxes {
+  display: flex;
+  width: 100%;
+  height: 960px;
+  overflow: hidden;
+}
+
+.boxes img {
+  max-width: 100%;
+  display: block;
+  margin: 10% auto;
+}
+
+#about {
+  float: left;
+  width: 20%;
+  height: 450px;
+  background: #22EBFF;
+}
+
+
+#me {
+  float: left;
+  height: 550px;
+  width: 20%;
+  margin-top: 450px;
+  margin-left: -19.3%;
+  background: #2AFF5E;
+}
+
+#personal {
+  margin: 45% auto;
+}
+
+#wordpress {
+  width: 44%%;
+  height: 500px;
+  background: #00deb7;
+}
+
+#design {
+  width: 33%;
+  height: 500px;
+  margin-top: 500px;
+  margin-left: -81.5%;
+  background: #FFF421;
+}
+
+#designlogo {
+  margin: 15% auto;
+}
+
+#requirements {
+  width: 42%;
+  height: 500px;
+  background: #714b9d;
+}
+
+
+#development {
+  width: 53%;
+  height: 500px;
+  margin-top: 500px;
+  background: #FF7F7D;
+}
+
 .intro {
 	font: italic normal 18px/28px Georgia, 'Times New Roman', Times, serif;
 	color: #595959;
