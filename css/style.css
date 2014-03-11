@@ -2,6 +2,7 @@ body {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   margin: 0;
+  background: #768E8F url(../img/stardust.png) fixed;
 }
 
 nav {
@@ -98,7 +99,7 @@ nav a:visited {
 #me {
   float: left;
   height: 450px;
-  width: 27%;
+  width: 28%;
   margin-top: 350px;
   margin-left: -28.3%;
   background: #4EE05B;
@@ -121,7 +122,7 @@ nav a:visited {
   margin-top: 380px;
   margin-left: -83.1%;
   background: #FFAB3F;
-  z-index: 5;
+  z-index: 20;
 }
 
 #designlogo, #dev {
@@ -247,7 +248,7 @@ nav a:visited {
 }
 
 #project-1 {
-	background: #768E8F url(../img/stardust.png); /*Background from subtlepatterns.com */
+	background: transparent; /*Background from subtlepatterns.com */
 	color: #FFFFFF;
 }
 
@@ -258,7 +259,7 @@ nav a:visited {
 }
 
 #project-3 {
-	background: #768E8F url(../img/stardust.png);
+	background: transparent;
 	color: #FFFFFF;
 }
 
@@ -268,7 +269,7 @@ nav a:visited {
 }
 
 #project-5 {
-  background: #768E8F url(../img/stardust.png);
+  background: transparent;
   color: #FFFFFF;
 }
 
