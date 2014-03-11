@@ -138,6 +138,7 @@ nav a:visited {
   width: 42%;
   height: 380px;
   background: #00deb7;
+  z-index: 20;
 }
 
 
@@ -276,7 +277,7 @@ nav a:visited {
 #project-5 {
   background: transparent;
   color: #FFFFFF;
-  min-height: 500px;
+  min-height: 650px;
 }
 
 #final {
