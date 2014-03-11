@@ -13,6 +13,11 @@ nav {
   background: #252120 url(../img/binding_dark.png) repeat left top;
 }
 
+.current {
+  background: #2A2A2A;
+  color: #fff;
+}
+
 ul {
   text-align: left;
   margin: 0;
@@ -57,8 +62,8 @@ nav a:visited {
 	width: 97px;
 	height: 97px;
 	position: fixed;
-	z-index: 10;
-	top: 400px;
+	z-index: 100;
+	top: 350px;
 	left: 196px;
 }
 
@@ -271,6 +276,7 @@ nav a:visited {
 #project-5 {
   background: transparent;
   color: #FFFFFF;
+  min-height: 500px;
 }
 
 #final {
