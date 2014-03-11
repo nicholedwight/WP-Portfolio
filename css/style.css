@@ -79,11 +79,16 @@ nav a:visited {
   margin: 5% auto;
 }
 
+.boxes a {
+  position: relative;
+}
+
 #about {
   float: left;
-  width: 27%;
+  width: 30%;
   height: 350px;
   background: #22EBFF;
+  z-index: 15;
 }
 
 #port {
@@ -95,7 +100,7 @@ nav a:visited {
   height: 450px;
   width: 27%;
   margin-top: 350px;
-  margin-left: -25.3%;
+  margin-left: -28.3%;
   background: #4EE05B;
 }
 
@@ -104,35 +109,38 @@ nav a:visited {
 }
 
 #wordpress {
-  width: 44%%;
+  width: 46%;
   height: 400px;
   background: #714b9d;
+  z-index: 10;
 }
 
 #design {
-  width: 33%;
-  height: 400px;
-  margin-top: 400px;
-  margin-left: -77.1%;
+  width: 38%;
+  height: 420px;
+  margin-top: 380px;
+  margin-left: -83.1%;
   background: #FFAB3F;
+  z-index: 5;
 }
 
-#designlogo {
+#designlogo, #dev {
   margin: 15% auto;
 }
 
 #requirements {
   width: 42%;
-  height: 400px;
+  height: 380px;
   background: #00deb7;
 }
 
 
 #development {
-  width: 53%;
-  height: 400px;
-  margin-top: 400px;
+  width: 47%;
+  height: 500px;
+  margin-top: 364px;
   background: #FF7F7D;
+  z-index: 15;
 }
 
 .intro {
@@ -239,7 +247,7 @@ nav a:visited {
 }
 
 #project-1 {
-	background: #768E8F url(../img/project1bg.jpg);
+	background: #768E8F url(../img/stardust.png); /*Background from subtlepatterns.com */
 	color: #FFFFFF;
 }
 
@@ -250,13 +258,18 @@ nav a:visited {
 }
 
 #project-3 {
-	background: #768E8F url(../img/project1bg.jpg);
+	background: #768E8F url(../img/stardust.png);
 	color: #FFFFFF;
 }
 
 #project-4 {
 	background-color: #F6F6F6;
 	color: #2e2e2e;
+}
+
+#project-5 {
+  background: #768E8F url(../img/stardust.png);
+  color: #FFFFFF;
 }
 
 #final {
