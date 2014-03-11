@@ -69,31 +69,34 @@ nav a:visited {
 .boxes {
   display: flex;
   width: 100%;
-  height: 960px;
+  height: 800px;
   overflow: hidden;
 }
 
 .boxes img {
   max-width: 100%;
   display: block;
-  margin: 10% auto;
+  margin: 5% auto;
 }
 
 #about {
   float: left;
-  width: 20%;
-  height: 450px;
+  width: 27%;
+  height: 350px;
   background: #22EBFF;
 }
 
+#port {
+  margin: 15% auto;
+}
 
 #me {
   float: left;
-  height: 550px;
-  width: 20%;
-  margin-top: 450px;
-  margin-left: -19.3%;
-  background: #2AFF5E;
+  height: 450px;
+  width: 27%;
+  margin-top: 350px;
+  margin-left: -25.3%;
+  background: #4EE05B;
 }
 
 #personal {
@@ -102,16 +105,16 @@ nav a:visited {
 
 #wordpress {
   width: 44%%;
-  height: 500px;
-  background: #00deb7;
+  height: 400px;
+  background: #714b9d;
 }
 
 #design {
   width: 33%;
-  height: 500px;
-  margin-top: 500px;
-  margin-left: -81.5%;
-  background: #FFF421;
+  height: 400px;
+  margin-top: 400px;
+  margin-left: -77.1%;
+  background: #FFAB3F;
 }
 
 #designlogo {
@@ -120,15 +123,15 @@ nav a:visited {
 
 #requirements {
   width: 42%;
-  height: 500px;
-  background: #714b9d;
+  height: 400px;
+  background: #00deb7;
 }
 
 
 #development {
   width: 53%;
-  height: 500px;
-  margin-top: 500px;
+  height: 400px;
+  margin-top: 400px;
   background: #FF7F7D;
 }
 
