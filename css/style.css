@@ -97,6 +97,10 @@ nav a:visited {
   z-index: 15;
 }
 
+#about:hover {
+  background: #7DEBFF;
+}
+
 #port {
   margin: 15% auto;
 }
@@ -110,6 +114,10 @@ nav a:visited {
   background: #4EE05B;
 }
 
+#me:hover {
+  background: #4EE096;
+}
+
 #personal {
   margin: 35% auto;
 }
@@ -121,6 +129,10 @@ nav a:visited {
   z-index: 10;
 }
 
+#wordpress:hover {
+  background: #9380CC;
+}
+
 #design {
   width: 38%;
   height: 420px;
@@ -128,6 +140,10 @@ nav a:visited {
   margin-left: -83.1%;
   background: #FFAB3F;
   z-index: 20;
+}
+
+#design:hover {
+  background: #FFB900;
 }
 
 #designlogo, #dev {
@@ -141,6 +157,9 @@ nav a:visited {
   z-index: 20;
 }
 
+#requirements:hover {
+  background: #8BF7CC;
+}
 
 #development {
   width: 47%;
@@ -148,6 +167,10 @@ nav a:visited {
   margin-top: 364px;
   background: #FF7F7D;
   z-index: 15;
+}
+
+#development:hover {
+  background: #FFA19F;
 }
 
 .intro {
