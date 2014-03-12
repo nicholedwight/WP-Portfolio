@@ -1,6 +1,6 @@
 body {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   margin: 0;
   background: #768E8F url(../img/stardust.png) fixed;
 }
@@ -22,7 +22,7 @@ ul {
   text-align: left;
   margin: 0;
   height: 100%;
-  margin-top: 100%;
+  margin-top: 90%;
   padding: 15px 4px 20px 0;
   list-style: none;
 }
