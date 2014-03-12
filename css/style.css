@@ -61,15 +61,6 @@ nav a:visited {
 	color: inherit;
 }
 
-#up {
-	width: 97px;
-	height: 97px;
-	position: fixed;
-	z-index: 100;
-	top: 350px;
-	left: 196px;
-}
-
 #contentcontainer {
 	margin: 0;
   padding-left: 200px;
