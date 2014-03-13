@@ -8,7 +8,7 @@ body {
 nav {
 	width: 200px;
   height: 100%;
-	z-index: 10;
+	z-index: 2;
   background: #252120 url(../img/binding_dark.png) repeat left top;
 }
 
@@ -106,6 +106,7 @@ nav a:visited {
   margin-top: 350px;
   margin-left: -28.3%;
   background: #4EE05B;
+  z-index: 3;
 }
 
 #me:hover {
