@@ -13,7 +13,8 @@ nav {
 }
 
 #nav {
-  display: none;
+  position: absolute;
+  top: 800px;
 }
 
 .current {
